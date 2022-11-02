@@ -12,7 +12,7 @@ body {
     background: #121214;
     background-image: url("../assets/bg.svg");
     background-position-x: center;
-    background-position-y: 55%;
+    background-position-y: -715px;
 }
 
 ul{
@@ -23,7 +23,18 @@ ul{
     width: fit-content;
     margin: 52px auto;
 }
-main {
+
+#cards {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 63px;
+}
+main .card {
     color: #E1E1E6;
     padding: 32px 23px;
     text-align: center;
@@ -32,6 +43,8 @@ main {
     border-bottom: 2px solid #F7DD43;
 
 }
+
+
 
 main .game-date h2 {
     display: flex;
@@ -78,4 +91,8 @@ main ul li strong {
     font-size: 36px;
     line-height: 125%;
 
+}
+
+h2 {
+    color: black;
 }
